@@ -1,0 +1,786 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<data version="1.36.0">
+  <trigger type="plugin_event">
+    <useDefaultName>false</useDefaultName>
+    <name>AR</name>
+    <pluginLabel>AutoRemote</pluginLabel>
+    <pluginBlurb>processvoice</pluginBlurb>
+    <pluginPackage>com.joaomgcd.autoremote</pluginPackage>
+    <pluginClass>com.joaomgcd.autoremote.activity.ActivityConfigConditionTaskerEvent</pluginClass>
+    <pluginBundle>AwAAADwDAABCTkRMCgAAAAoAAABtAGUAcwBzAGEAZwBlAHYAYQByAAAAAAD/////OQAAAG4AZQB0
+AC4AZABpAG4AZwBsAGkAcwBjAGgALgBhAG4AZAByAG8AaQBkAC4AdABhAHMAawBlAHIALgBlAHgA
+dAByAGEAcwAuAFYAQQBSAEkAQQBCAEwARQBfAFIARQBQAEwAQQBDAEUAXwBLAEUAWQBTAAAAAAAA
+AE4AAABtAGUAcwBzAGEAZwBlAHYAYQByACAAdABlAG0AcAB2AGEAcgAgAGMAbwBtAG0AcABhAHIA
+YQBtAHMAdgBhAHIAIABtAGUAcwBzAGEAZwBlACAAdABhAHIAZwBlAHQAIABwAGwAdQBnAGkAbgBp
+AG4AcwB0AGEAbgBjAGUAaQBkACAAcABsAHUAZwBpAG4AdAB5AHAAZQBpAGQAIAAAAAAADAAAAHAA
+bAB1AGcAaQBuAHQAeQBwAGUAaQBkAAAAAAAAAAAAKQAAAGMAbwBtAC4AagBvAGEAbwBtAGcAYwBk
+AC4AYQB1AHQAbwByAGUAbQBvAHQAZQAuAEkAbgB0AGUAbgB0AFIAZQBtAG8AdABlAEUAdgBlAG4A
+dAAAAAcAAAB0AGUAbQBwAHYAYQByAAAA/////wwAAABtAGUAcwBzAGEAZwBlAGUAeABhAGMAdAAA
+AAAACQAAAAAAAAAMAAAAbQBlAHMAcwBhAGcAZQByAGUAZwBlAHgAAAAAAAkAAAAAAAAAEAAAAHAA
+bAB1AGcAaQBuAGkAbgBzAHQAYQBuAGMAZQBpAGQAAAAAAAAAAAAkAAAAOQA3ADcANgA0ADIANwAw
+AC0ANQA2AGQANQAtADQAMQA3ADMALQA5ADgAYgAxAC0AYwAzADUAZAAyADAAMAAxAGUANgAyADcA
+AAAAAAcAAABtAGUAcwBzAGEAZwBlAAAAAAAAAAwAAABwAHIAbwBjAGUAcwBzAHYAbwBpAGMAZQAA
+AAAAFgAAAG0AZQBzAHMAYQBnAGUAYwBhAHMAZQBpAG4AcwBlAG4AcwBpAHQAaQB2AGUAAAAAAAkA
+AAAAAAAADQAAAGMAbwBtAG0AcABhAHIAYQBtAHMAdgBhAHIAAAD/////
+</pluginBundle>
+    <pluginBundleData>rO0ABXNyABFqYXZhLnV0aWwuSGFzaE1hcAUH2sHDFmDRAwACRgAKbG9hZEZhY3RvckkACXRocmVz
+aG9sZHhwP0AAAAAAAAx3CAAAABAAAAAKdAAHdGVtcHZhcnB0AAxtZXNzYWdlZXhhY3RzcgARamF2
+YS5sYW5nLkJvb2xlYW7NIHKA1Zz67gIAAVoABXZhbHVleHAAdAAKbWVzc2FnZXZhcnB0AA1jb21t
+cGFyYW1zdmFycHQAFm1lc3NhZ2VjYXNlaW5zZW5zaXRpdmVxAH4ABXQADG1lc3NhZ2VyZWdleHEA
+fgAFdAAHbWVzc2FnZXQADHByb2Nlc3N2b2ljZXQAOW5ldC5kaW5nbGlzY2guYW5kcm9pZC50YXNr
+ZXIuZXh0cmFzLlZBUklBQkxFX1JFUExBQ0VfS0VZU3QATm1lc3NhZ2V2YXIgdGVtcHZhciBjb21t
+cGFyYW1zdmFyIG1lc3NhZ2UgdGFyZ2V0IHBsdWdpbmluc3RhbmNlaWQgcGx1Z2ludHlwZWlkIHQA
+DHBsdWdpbnR5cGVpZHQAKWNvbS5qb2FvbWdjZC5hdXRvcmVtb3RlLkludGVudFJlbW90ZUV2ZW50
+dAAQcGx1Z2luaW5zdGFuY2VpZHQAJDk3NzY0MjcwLTU2ZDUtNDE3My05OGIxLWMzNWQyMDAxZTYy
+N3g=
+</pluginBundleData>
+    <configured>true</configured>
+    <relevantVariables>"%err
+Error Code
+Only available if you select &lt;b&gt;Continue Task After Error&lt;/b&gt; and the action ends in error","%errmsg
+Error Message
+Only available if you select &lt;b&gt;Continue Task After Error&lt;/b&gt; and the action ends in error","%armessage
+The whole received AutoRemote message.
+The whole received AutoRemote message.","%arpar()
+Single words to the left of =:=
+Single words to the left of =:=","%arcomm
+Whole of the text to the right of =:=
+Whole of the text to the right of =:=","%artime
+Current Time
+","%arfiles()
+Files
+","%arsenderbtmac
+Sender Bluetooth Mac Address
+","%arsenderid
+Sender Id
+","%arsenderlocalip
+Sender Local IP
+","%arsendername
+Sender Name
+","%arsenderpublicip
+Sender Public IP
+","%arsendertype
+Sender Type
+","%arvia
+Way the message was sent (BT, Wifi, GCM)
+"</relevantVariables>
+  </trigger>
+  <trigger type="plugin_event">
+    <useDefaultName>false</useDefaultName>
+    <name>AV</name>
+    <pluginLabel>AutoVoice Recognized</pluginLabel>
+    <pluginBlurb></pluginBlurb>
+    <pluginPackage>com.joaomgcd.autovoice</pluginPackage>
+    <pluginClass>com.joaomgcd.autovoice.activity.ActivityConfigReceiveVoiceEvent</pluginClass>
+    <pluginBundle>AwAAAIQFAABCTkRMGgAAAAYAAABTAG8AdQByAGMAZQAAAAAA/////zkAAABuAGUAdAAuAGQAaQBu
+AGcAbABpAHMAYwBoAC4AYQBuAGQAcgBvAGkAZAAuAHQAYQBzAGsAZQByAC4AZQB4AHQAcgBhAHMA
+LgBWAEEAUgBJAEEAQgBMAEUAXwBSAEUAUABMAEEAQwBFAF8ASwBFAFkAUwAAAAAAAAAeAAAAcABs
+AHUAZwBpAG4AaQBuAHMAdABhAG4AYwBlAGkAZAAgAHAAbAB1AGcAaQBuAHQAeQBwAGUAaQBkACAA
+AAAAAAwAAABwAGwAdQBnAGkAbgB0AHkAcABlAGkAZAAAAAAAAAAAADUAAABjAG8AbQAuAGoAbwBh
+AG8AbQBnAGMAZAAuAGEAdQB0AG8AdgBvAGkAYwBlAC4AaQBuAHQAZQBuAHQALgBJAG4AdABlAG4A
+dABSAGUAYwBlAGkAdgBlAFYAbwBpAGMAZQBFAHYAZQBuAHQAAAAOAAAAYwBvAG4AZgBpAGcAZQB4
+AGEAYwB0AHMAdQBiAAAAAAAJAAAAAAAAAA0AAABjAG8AbgBmAGkAZwBjAG8AbQBtAGEAbgBkAAAA
+/////xIAAABMAGEAcwB0AEMAbwBtAG0AYQBuAGQASQBkAFIAZQBnAGUAeAAAAAAACQAAAAAAAAAR
+AAAAYwBvAG4AZgBpAGcAbABhAHMAdABjAG8AbQBtAGEAbgBkAAAA/////wsAAABOAG8AdABPAG4A
+TgBvAHIAbQBhAGwAAAAJAAAAAAAAAAgAAABDAG8AbgB0AGEAaQBuAHMAAAAAAAkAAAAAAAAAEAAA
+AFQAcgBpAGcAZwBlAHIAVwBvAHIAZABFAHgAYQBjAHQAAAAAAAkAAAAAAAAAEAAAAFQAcgBpAGcA
+ZwBlAHIAVwBvAHIAZABSAGUAZwBlAHgAAAAAAAkAAAAAAAAACQAAAFIAZQBzAHAAbwBuAHMAZQBz
+AAAA/////xgAAABOAG8AdABDAGEAbgBjAGUAbABTAGUAYQByAGMAaABHAG8AbwBnAGwAZQBOAG8A
+dwAAAAAACQAAAAAAAAAOAAAAYwBvAG4AZgBpAGcAcgBlAGcAZQB4AHMAdQBiAAAAAAAJAAAAAAAA
+ABQAAABjAG8AbgBmAGkAZwBfAGUAYQBzAHkAXwBjAG8AbQBtAGEAbgBkAHMAAAAAAP////8QAAAA
+cABsAHUAZwBpAG4AaQBuAHMAdABhAG4AYwBlAGkAZAAAAAAAAAAAACQAAABkADEAYgBkADAAOABj
+ADYALQBjADQAZQA3AC0ANAA5ADcANgAtADkAMABiAGIALQA2ADgAOQA3AGIAZAAyAGEAZgA3ADYA
+NAAAAAAACQAAAFAAcgBlAGMAaQBzAGkAbwBuAAAA/////w0AAABTAHUAYgBzAHQAaQB0AHUAdABp
+AG8AbgBzAAAA/////xMAAABjAG8AbgBmAGkAZwBjAG8AbQBtAGEAbgBkAGkAbgB2AGUAcgB0AAAA
+CQAAAAAAAAALAAAAVAByAGkAZwBnAGUAcgBXAG8AcgBkAAAA/////w8AAABjAG8AbgBmAGkAZwBj
+AG8AbQBtAGEAbgBkAGkAZAAAAP////8PAAAATgBvAHQATwBuAEMAbwBuAHQAaQBuAHUAbwB1AHMA
+AAAJAAAAAAAAAA4AAABWAGEAcgBpAGEAYgBsAGUAVgBhAGwAdQBlAHMAAAAAAP////8TAAAATABh
+AHMAdABDAG8AbQBtAGEAbgBkAEkAZABJAG4AdgBlAHIAdAAAAAkAAAAAAAAACwAAAFAAcgBvAGYA
+aQBsAGUATgBhAG0AZQAAAP////8NAAAAVgBhAHIAaQBhAGIAbABlAE4AYQBtAGUAcwAAAP////8=
+</pluginBundle>
+    <pluginBundleData>rO0ABXNyABFqYXZhLnV0aWwuSGFzaE1hcAUH2sHDFmDRAwACRgAKbG9hZEZhY3RvckkACXRocmVz
+aG9sZHhwP0AAAAAAADB3CAAAAEAAAAAadAAOY29uZmlnZXhhY3RzdWJzcgARamF2YS5sYW5nLkJv
+b2xlYW7NIHKA1Zz67gIAAVoABXZhbHVleHAAdAANY29uZmlnY29tbWFuZHB0ABRjb25maWdfZWFz
+eV9jb21tYW5kc3B0AA9Ob3RPbkNvbnRpbnVvdXNxAH4ABHQAEFRyaWdnZXJXb3JkUmVnZXhxAH4A
+BHQAC1Byb2ZpbGVOYW1lcHQADmNvbmZpZ3JlZ2V4c3VicQB+AAR0AAZTb3VyY2VwdAATTGFzdENv
+bW1hbmRJZEludmVydHEAfgAEdAANVmFyaWFibGVOYW1lc3B0ABhOb3RDYW5jZWxTZWFyY2hHb29n
+bGVOb3dxAH4ABHQAC1RyaWdnZXJXb3JkcHQADVN1YnN0aXR1dGlvbnNwdAASTGFzdENvbW1hbmRJ
+ZFJlZ2V4cQB+AAR0ABBUcmlnZ2VyV29yZEV4YWN0cQB+AAR0AAtOb3RPbk5vcm1hbHEAfgAEdAAO
+VmFyaWFibGVWYWx1ZXNwdAA5bmV0LmRpbmdsaXNjaC5hbmRyb2lkLnRhc2tlci5leHRyYXMuVkFS
+SUFCTEVfUkVQTEFDRV9LRVlTdAAecGx1Z2luaW5zdGFuY2VpZCBwbHVnaW50eXBlaWQgdAAMcGx1
+Z2ludHlwZWlkdAA1Y29tLmpvYW9tZ2NkLmF1dG92b2ljZS5pbnRlbnQuSW50ZW50UmVjZWl2ZVZv
+aWNlRXZlbnR0AAlSZXNwb25zZXNwdAAJUHJlY2lzaW9ucHQACENvbnRhaW5zcQB+AAR0AA9jb25m
+aWdjb21tYW5kaWRwdAARY29uZmlnbGFzdGNvbW1hbmRwdAATY29uZmlnY29tbWFuZGludmVydHEA
+fgAEdAAQcGx1Z2luaW5zdGFuY2VpZHQAJGQxYmQwOGM2LWM0ZTctNDk3Ni05MGJiLTY4OTdiZDJh
+Zjc2NHg=
+</pluginBundleData>
+    <configured>true</configured>
+    <relevantVariables>"%avcomm
+First recognized Command
+","%avcomms()
+All recognized commands
+","%avsource
+Source of the Voice Command
+Can be normal, continuous, test or googlenow","%avword()
+Word Array
+"</relevantVariables>
+  </trigger>
+  <trigger type="plugin_event">
+    <useDefaultName>false</useDefaultName>
+    <name>AW</name>
+    <pluginLabel>AutoWear Command</pluginLabel>
+    <pluginBlurb>Command Filter: processvoice=:=
+Regex: true</pluginBlurb>
+    <pluginPackage>com.joaomgcd.autowear</pluginPackage>
+    <pluginClass>com.joaomgcd.autowear.activity.ActivityConfigCommand</pluginClass>
+    <pluginBundle>AwAAAKwCAABCTkRMCAAAAAcAAABDAG8AbQBtAGEAbgBkAAAAAAAAAA8AAABwAHIAbwBjAGUAcwBz
+AHYAbwBpAGMAZQA9ADoAPQAAADkAAABuAGUAdAAuAGQAaQBuAGcAbABpAHMAYwBoAC4AYQBuAGQA
+cgBvAGkAZAAuAHQAYQBzAGsAZQByAC4AZQB4AHQAcgBhAHMALgBWAEEAUgBJAEEAQgBMAEUAXwBS
+AEUAUABMAEEAQwBFAF8ASwBFAFkAUwAAAAAAAAAmAAAAQwBvAG0AbQBhAG4AZAAgAHAAbAB1AGcA
+aQBuAGkAbgBzAHQAYQBuAGMAZQBpAGQAIABwAGwAdQBnAGkAbgB0AHkAcABlAGkAZAAgAAAAAAAM
+AAAAcABsAHUAZwBpAG4AdAB5AHAAZQBpAGQAAAAAAAAAAAAqAAAAYwBvAG0ALgBqAG8AYQBvAG0A
+ZwBjAGQALgBhAHUAdABvAHcAZQBhAHIALgBpAG4AdABlAG4AdAAuAEkAbgB0AGUAbgB0AEMAbwBt
+AG0AYQBuAGQAAAAAABYAAABDAG8AbQBtAGEAbgBkAEMAYQBzAGUASQBuAHMAZQBuAHMAaQB0AGkA
+dgBlAAAAAAAJAAAAAAAAAAUAAABFAHYAZQBuAHQAAAD/////EAAAAHAAbAB1AGcAaQBuAGkAbgBz
+AHQAYQBuAGMAZQBpAGQAAAAAAAAAAAAkAAAAYgAyAGIAZQBlADQAMQA3AC0AMQBkAGYAMwAtADQA
+MgA4AGMALQA4AGMAMQAwAC0ANQAwADkAMQBjADQAMwAxAGMAYwAwADgAAAAAAAwAAABDAG8AbQBt
+AGEAbgBkAEUAeABhAGMAdAAAAAAACQAAAAAAAAAMAAAAQwBvAG0AbQBhAG4AZABSAGUAZwBlAHgA
+AAAAAAkAAAABAAAA
+</pluginBundle>
+    <pluginBundleData>rO0ABXNyABFqYXZhLnV0aWwuSGFzaE1hcAUH2sHDFmDRAwACRgAKbG9hZEZhY3RvckkACXRocmVz
+aG9sZHhwP0AAAAAAAAx3CAAAABAAAAAIdAAHQ29tbWFuZHQAD3Byb2Nlc3N2b2ljZT06PXQAFkNv
+bW1hbmRDYXNlSW5zZW5zaXRpdmVzcgARamF2YS5sYW5nLkJvb2xlYW7NIHKA1Zz67gIAAVoABXZh
+bHVleHAAdAAFRXZlbnRwdAAMQ29tbWFuZFJlZ2V4c3EAfgAFAXQADENvbW1hbmRFeGFjdHEAfgAG
+dAA5bmV0LmRpbmdsaXNjaC5hbmRyb2lkLnRhc2tlci5leHRyYXMuVkFSSUFCTEVfUkVQTEFDRV9L
+RVlTdAAmQ29tbWFuZCBwbHVnaW5pbnN0YW5jZWlkIHBsdWdpbnR5cGVpZCB0AAxwbHVnaW50eXBl
+aWR0ACpjb20uam9hb21nY2QuYXV0b3dlYXIuaW50ZW50LkludGVudENvbW1hbmR0ABBwbHVnaW5p
+bnN0YW5jZWlkdAAkYjJiZWU0MTctMWRmMy00MjhjLThjMTAtNTA5MWM0MzFjYzA4eA==
+</pluginBundleData>
+    <configured>true</configured>
+    <relevantVariables>"%awcomm
+Command at the right of =:=, if there's only 1 =:=
+","%awcomm()
+Commands at the right of =:=, if there's more than 1 =:=
+","%awmessage
+The whole message that was received
+","%awpar()
+Paramaters at the left of =:=
+","%regexgroups()
+Regex Groups
+Regex Groups"</relevantVariables>
+  </trigger>
+  <trigger type="shortcut">
+    <useDefaultName>false</useDefaultName>
+    <name>Inputbox shortcut</name>
+    <enabled>true</enabled>
+    <title>Input voice as text</title>
+  </trigger>
+  <condition type="expression">
+    <useDefaultName>false</useDefaultName>
+    <name>AV|AR|AW triggers</name>
+    <expression>matches(trigger, "(AV|AR|AW)") </expression>
+  </condition>
+  <condition type="expression">
+    <useDefaultName>false</useDefaultName>
+    <name>flow==Null</name>
+    <expression>flow==Null or flow=="short form expander" </expression>
+  </condition>
+  <condition type="expression">
+    <useDefaultName>false</useDefaultName>
+    <name>Inputbox shortcut trigger</name>
+    <expression>trigger =="Inputbox shortcut" </expression>
+  </condition>
+  <condition type="expression">
+    <useDefaultName>false</useDefaultName>
+    <name>trigger =="Manual"</name>
+    <expression>trigger =="Manual" </expression>
+  </condition>
+  <action type="execute_flows">
+    <useDefaultName>true</useDefaultName>
+    <name>Execute Flows: {flow}</name>
+    <includeFlowNamePatternList>{flow}</includeFlowNamePatternList>
+    <excludeFlowNamePatternList></excludeFlowNamePatternList>
+    <skipDisabledFlowsWithoutError>false</skipDisabledFlowsWithoutError>
+    <waitForFlowsToFinish>false</waitForFlowsToFinish>
+    <returnLocalVariablesToCallingFlow>false</returnLocalVariablesToCallingFlow>
+  </action>
+  <action type="script">
+    <useDefaultName>false</useDefaultName>
+    <name>Functions map</name>
+    <script>global_func=newMap() ; 
+//Functions will be defined in strings below. 
+//They are called with eval("function_name") 
+//after setting parameters in local variables 
+
+split_function = newList("n=-1;result='';p=newList(t1,e1,s1,i1,s2,w1);" ,
+"dflt=newList('bounds','','',1,'', 20);timer=1;i1='';s1='';s2='';w1=20;",  
+"for(x in p){n=n+1;", 
+"   if(x==null) p[n]=dflt[n];}", 
+"p[5]=p[5]*5;", 
+"if (p[0]=='wait') {", 
+"   while (null==getBounds(p[1]) and timer&lt;p[5]) {", 
+"      sleep(200);timer=timer+1;}if(timer==p[5])result='fail'}", 
+"if (p[0]=='waitid') {", 
+"   while (null==getBoundsById(app+p[1]) and timer&lt;p[5]) {", 
+"      sleep(200);timer=timer+1;}if(timer==p[5])result='fail'}", 
+"if (p[0]=='waittextid') {", 
+"   if (p[4]=='') {", 
+"      while (p[2]!=getTextById(app+p[1]) and timer&lt;p[5]) {", 
+"         sleep(200);timer=timer+1;}if(timer==p[5])result='fail'}",
+"   else {", 
+"      while (p[4]==getTextById(app+p[1]) and timer&lt;p[5]) {", 
+"         sleep(200);timer=timer+1;}if(timer==p[5])result='fail'}} ", 
+"if (p[0]=='query') result=getBounds(p[1]);", 
+"if (p[0]=='queryid') result=getBoundsById(app+p[1]);", 
+"if (p[0]=='scrollto') {pg=0;",
+"   while (pg&lt;5){",
+"      i=0;pg=pg+1;",
+"      text=getTextById(app+p[1]);", 
+"      if (contains(toLowerCase(text),p[2])) clickById(app+p[1]);pg=5;", 
+"      while (i&lt;30){i=i+1;", 
+"         text=getTextByIdAndIndex(app+p[1],i);", 
+"         if (contains(toLowerCase(text),p[2])) clickByIdAndIndex(app+p[1],i);pg=5;}", 
+"      if (pg&lt;5) scrollForwardById(app+p[1]);}}", 
+"if (p[0]=='click') click(p[1]);", 
+"if (p[0]=='clickid') clickById(app+p[1]);", 
+"if (p[0]=='clickidind') {", 
+"   if (p[3]&gt;0) {clickByIdAndIndex(app+p[1],p[3]);} ",
+"   else {clickById(app+p[1])}}",
+"if (p[0]=='setid') setText2ById(app+p[1],p[2]);", 
+"if (p[0]=='text') result=getText(p[1]);", 
+"if (p[0]=='textid') result=getTextById(app+p[1]);", 
+"if (p[0]=='textidind') result=getTextByIdAndIndex(app+p[1],p[3]);", 
+"if (p[0]=='scrollid') scrollForwardById(app+p[1]);", 
+"out='done'"); function="" ;
+for (line in split_function) function=function+line;
+addMapEntry(global_func,"ui", function) ;
+//Using the "ui" function in a flow:
+//
+//Set the following parameter variables and call 
+//  this function with eval(global_func["ui"])
+//s1, s2 and i1 are optional and reset to null
+//t1 and e1 carry over between function calls
+//  and are mandatory
+//
+//t1 = task to perform, e1 = element to act on
+//s1 (for setid) = text to set in e1 
+//s1 (for waittextid) = wait for this text to appear in e1
+//s1 (for scrollto) = getText in e1 top 30 indices
+//   if s1 is found, click, else scroll and repeat
+//i1 (for clickidind and textidind) = index to click/getText
+
+
+split_function = newList("move=0;b=newList(9,9,9,9,9,9,9,9) ;", 
+"if(b[6]=getBoundsByIdAndIndex('ch.gridvision.ppam.androidautomagic:id/b_5',6)[2]&gt;0) {move=7-go;} ", 
+"else if(b[5]=getBoundsByIdAndIndex('ch.gridvision.ppam.androidautomagic:id/b_5',5)[2]&gt;0) {move=6-go;} ", 
+"else if(b[4]=getBoundsByIdAndIndex('ch.gridvision.ppam.androidautomagic:id/b_5',4)[2]&gt;0) {move=5-go;} ", 
+"else if(b[3]=getBoundsByIdAndIndex('ch.gridvision.ppam.androidautomagic:id/b_5',3)[2]&gt;0) {move=4-go;} ", 
+"else if(b[2]=getBoundsByIdAndIndex('ch.gridvision.ppam.androidautomagic:id/b_5',2)[2]&gt;0) {move=3-go;} ", 
+"else if(b[1]=getBoundsByIdAndIndex('ch.gridvision.ppam.androidautomagic:id/b_5',1)[2]&gt;0) {move=2-go;} ", 
+"else if(b[0]=getBoundsById('ch.gridvision.ppam.androidautomagic:id/b_5')[2]&gt;0) {move=1-go;} ", 
+"while (move&gt;0){", 
+"   touchGesture(0, 117, newList(253, 1515, 564, 1518));", 
+"   move=move-1;}", 
+"while(move&lt;0){", 
+"   touchGesture(0, 117, newList(756, 1520, 300, 1499));", 
+"   move=move+1;}") ; function="" ;
+for (line in split_function) function=function+line;
+addMapEntry(global_func,"home", function) ;
+//Using the "home" function in a flow:
+//Set the local variable "go" to the home
+//  page # you wish to scroll to and call 
+//  this function with eval(global_func["home"]) 
+
+split_function = newList("" ,
+"date =getDate();", 
+"keylist =getMapKeys(global_settings) ;", 
+"for (key in keylist) {", 
+"   val=global_settings[key] ;", 
+"   key =replaceAll(key,' ','');", 
+"   setValue(key, val) ;}", 
+"keylist =getMapKeys(global_events) ;", 
+"for (key in keylist) {", 
+"   val=global_events[key] ;", 
+"   key =replaceAll(key,' ','');", 
+"   setValue(key, val) ;}" ) ;
+function="" ;
+for (line in split_function) function=function+line;
+addMapEntry(global_func,"initsettingsvars", function) ;
+//Using "initsettingsvars" function in a flow:
+//Call it to set data in the map global_settings
+//  to local variables with names=key without spaces, 
+//  and values =global_settings[key] 
+
+split_function = newList("" ,
+"list=params[0];prefix=params[1];contain=params[2];",
+"omit=params[3];heading=params[4];formatkeys=params[5];", 
+"len=length(list);count=0;num=0;",
+"if (len&gt;0)if(heading!='')addElement(rows, heading);", 
+"while (count &lt;len){", 
+"   count=count+1;", 
+"   if(formatkeys!=''){",//then you have a map
+"      keys=sort(getMapKeys(list));key=keys[count-1];", 
+"      formatkey=' - '+formatkeys[count-1] ;thislist=replaceAll(list[key],'  ',' ') ;}", 
+"   else {", 
+"      thislist=list[count-1];formatkey='';}", 
+"   if (matches(thislist,contain) AND not matches(thislist, omit) AND not isMap(thislist)) {" , 
+"      num=num+1;addElement(rows, prefix+num+formatkey+' - '+thislist);} }", 
+"if (num==0 AND formatkeys!='') addElement(rows, prefix+'none');");
+function="" ;
+for (line in split_function) function=function+line;
+addMapEntry(global_func,"formatlist", function) ;
+//Using the "formatlist" function in a flow:
+//Format data in list params[0] for display
+//  as a string.
+//Prefix each bullet with params[1]
+//Only show elements containing params[2]
+//Omit elements containing params[3]
+//Use params[4] as a heading before the bullets
+//Provide the map keys in list params[5]
+//  if you are formatting a map. This will 
+//  put the map key after the Prefix and index
+//  and before " - " and the value. Sort your map
+//  first, and if you change the format of the 
+//  keys, keep them in this order. 
+
+split_function = newList("" ,
+"list=params[0];rowlen=50;collen=24;landlen=28;", 
+"rowstring=newList('' , '') ;", 
+"rowstringland=newList('' , '' ) ;", 
+"listlength=length(list);", 
+"thisrow=0;side=1;sideland=1;", 
+"while (thisrow&lt;listlength){", 
+"   rowtext=list[thisrow];", 
+"   rowtext=replaceAll(rowtext, 'v{date, dateformat, M-d-yy}', '' ) ;", 
+"   len=length(rowtext);", 
+"   if (len&gt;rowlen){", 
+"      addElement(list, thisrow+1,'          '+substring(rowtext, rowlen)) ;", 
+"      listlength=listlength+1;", 
+"      rowstring[side] =rowstring[side]+'  '+substring(rowtext, 0,rowlen)+'-\\n    ' ;", 
+"      rowstringland[sideland] =rowstringland[sideland]+'      ' +substring(rowtext, 0,rowlen)+'-\\n    ' ;} ", 
+"   else {", 
+"      rowstring[side]=rowstring[side] +'  '+rowtext+'\\n';", 
+"      rowstringland[sideland]=rowstringland[sideland] +'      '+rowtext+'\\n    ';}", 
+"   list[thisrow] =rowtext;", 
+"   thisrow=thisrow+1;", 
+"   if (thisrow==side*collen)side=side+1;addElement(rowstring, '') ;", 
+"   if (thisrow==sideland*landlen)sideland=sideland+1;addElement(rowstringland,'') ;", 
+"   if (thisrow==sideland*landlen*2)sideland=sideland+1; addElement(rowstringland,'') ;} ;", 
+"keepscreenon='off';", 
+"if (contains(rowstring[1],'is a reminder') AND global_settings['display state']=='on') ", 
+"   keepscreenon='on';", 
+"if (keepscreenon=='y') {keepscreenon=1;} ") ;
+function="" ;
+for (line in split_function) function=function+line;
+addMapEntry(global_func,"fitonphone16", function) ;
+//Using the "fitonphone16" function in a flow:
+//This resizes the contents of the data in
+//  the list, params[0], to fit in the display 
+//  widget screen at text size 16. Extra text
+//  is bumped to the next page. Access resulting 
+//  strings for each page in rowstring[x]. 
+
+split_function = newList("" ,
+"list=params[0];rowlen=39;collen=20;landlen=28;", 
+"rowstring=newList('' , '') ;", 
+"rowstringland=newList('' , '') ;", 
+"listlength=length(list);", 
+"thisrow=0;side=1;sideland=1;", 
+"while (thisrow&lt;listlength){", 
+"   rowtext=list[thisrow];", 
+"   rowtext=replaceAll(rowtext, 'v{date, dateformat, M-d-yy}', '' ) ;", 
+"   len=length(rowtext);", 
+"   if (len&gt;rowlen){", 
+"      addElement(list, thisrow+1,'        '+substring(rowtext, rowlen)) ;", 
+"      listlength=listlength+1;", 
+"      rowstring[side] =rowstring[side]+'  '+substring(rowtext, 0,rowlen)+'-\\n     ' ;", 
+"      rowstringland[sideland] =rowstringland[sideland]+'      ' +substring(rowtext, 0,rowlen)+'-\\n    ' ;} ", 
+"   else {", 
+"      rowstring[side]=rowstring[side] +'  '+rowtext+'\\n';", 
+"      rowstringland[sideland]=rowstringland[sideland] +'      '+rowtext+'\\n';}", 
+"   list[thisrow] =rowtext;", 
+"   thisrow=thisrow+1;", 
+"   if (thisrow==side*collen)side=side+1;addElement(rowstring, '') ;", 
+"   if (thisrow==sideland*landlen)sideland=sideland+1;addElement(rowstringland,'') ;", 
+"   if (thisrow==sideland*landlen*2)sideland=sideland+1; addElement(rowstringland,'') ;} ;", 
+"keepscreenon='off';", 
+"if (contains(rowstring[1],'is a reminder') AND global_settings['display state']=='on') ", 
+"   keepscreenon='on';", 
+"if (keepscreenon=='y') {keepscreenon=1;} ") ;
+function="" ;
+for (line in split_function) function=function+line;
+addMapEntry(global_func,"fitonphone21", function) ;
+//Using the "fitonphone21" function in a flow:
+//This resizes the contents of the data in
+//  the list, params[0], to fit in the display 
+//  widget screen at text size 21. Extra text
+//  is bumped to the next page. Access resulting 
+//  strings for each page in rowstring[x]. 
+
+split_function = newList("" ,
+"list=params[0]; rowlen=28; output='';", 
+"listlength=length(list); thisrow=0;", 
+"while (thisrow&lt;listlength){", 
+"   rowtext=list[thisrow];", 
+"   len=length(rowtext);", 
+"   if (len&gt;rowlen){", 
+"      addElement(list, thisrow+1,substring(rowtext, rowlen));", 
+"      listlength=listlength+1;", 
+"      output=output+'     '+substring(rowtext, 0,rowlen)+'-\\n';}", 
+"   else ", 
+"      output=output+'     '+rowtext+'\\n';", 
+"   thisrow=thisrow+1;}"); function="" ;
+for (line in split_function) function=function+line;
+addMapEntry(global_func,"fitonwatch", function) ;
+//Using the "fitonwatch" function in a flow:
+//This resizes the contents of the data in
+//  the list, params[0], to fit in the Automagic 
+//  scrollable text screen. Access resulting 
+//  string in rowstring. </script>
+  </action>
+  <action type="input_dialog">
+    <useDefaultName>false</useDefaultName>
+    <name>Input Dialog</name>
+    <title></title>
+    <inputDialogType>TEXT</inputDialogType>
+    <prompt>Spoken command:</prompt>
+    <inputValues></inputValues>
+    <defaultValue>{global_events['this event']}</defaultValue>
+    <titleFontSize>DEFAULT</titleFontSize>
+    <promptFontSize>DEFAULT</promptFontSize>
+    <fontSize>DEFAULT</fontSize>
+    <timeoutEnabled>false</timeoutEnabled>
+    <timeout>60000</timeout>
+    <defaultValueOnTimeout></defaultValueOnTimeout>
+    <showWhenLocked>false</showWhenLocked>
+    <turnScreenOn>false</turnScreenOn>
+    <keepScreenOn>false</keepScreenOn>
+    <enlargeDialogWidth>false</enlargeDialogWidth>
+    <keyboardCapitalizeSentences>false</keyboardCapitalizeSentences>
+  </action>
+  <action type="script">
+    <useDefaultName>false</useDefaultName>
+    <name>Process AW|AR|AW|Inputbox inputs</name>
+    <script>//Funnel all inputs into {message}
+if (trigger =="AV") {message=avcomm} 
+if (trigger =="AR") {message=arcomm}
+if (trigger =="AW") {message=awcomm;
+   if (matches(message,"(?i)Voice|Alexa")) message=""} 
+if (trigger =="Inputbox shortcut") {message=trim(value); 
+   if (operation=="cancel") message=""}
+ 
+//Workaround for Google inserting punctuation poorly
+message =replaceAll(message, "\\,","") ;
+message =replaceAll(message, "\\.","") ;
+message =replaceAll(message, "\\?","") ;
+message =replaceAll(message, " i say","\\.") ;
+message =replaceAll(message, " i wait","\\,") ;
+message =replaceAll(message, " i wonder","\\?") ;
+message =replaceAll(message, " i exclaim","\\!") ;
+message =replaceAll(message, "space"," ") ;
+
+//When you are polite it responds likewise 
+if (matches(message, "(?i).*please.*")) {polite="yes"} 
+message =replaceAll(message, "(?i)please","") ;
+
+//Inputbox default value is this global variable
+//certain commands are filtered out
+if (matches(message, "(?i)again")) 
+   message =global_events["this event"]
+else if (message!="") global_events["this event"]=message;
+
+//Remove input junk characters 
+keylist=getMapKeys(global_replacelist["clean"]);
+for (key in keylist ) {
+   val =global_replacelist["clean"][key] ;
+   message =replace(message, "{key}","{val}")} 
+
+//Turns stand alone number words to integers
+keylist=getMapKeys(global_replacelist["numbers"]); 
+for (key in keylist ) {
+   val =global_replacelist["numbers"][key] ;
+   message=replaceAll(message , "(?i)\\b{key}\\b", "{val}"); } 
+
+//Search regexlist map keys for matches, 
+//put captured groups in global_parselist, 
+//and set the flow to be triggered as that key's value
+done=false;
+while (done==false) {//See below for reason
+   global_parselist=newList();
+   keylist=getMapKeys(global_regexlist);
+   for (key in keylist) { 
+      if (matches(message,"(?i)"+key,global_parselist)){
+         removeElement(global_parselist, 0);
+         flow=replaceAll(global_regexlist[key],"flow ","");break}}
+
+   //If the flow is specified as "short form expander" 
+   //  this expands a shorthand voice phrase to the 
+   //  full phrase or fixes expected Google 
+   //  misinterpretation to simplify downstream flows. 
+   //The regex map search is performed once more
+   //  after this is done to set a new flow. 
+   if (flow=="short form expander") {
+      //Expands shorthand
+      mapkeys=getMapKeys(global_expandlist);
+      for (key in mapkeys) { 
+         if (matches(message, "(?i)"+key)) {break;}} 
+      message=replaceAll(message,"(?i)"+key,global_expandlist[key]);} 
+      //Fixes number misinterpretations
+      if (matches(message, "(?i)(.*)convertnum (.+?)( .*)")) {
+         for (key in getMapKeys(global_replacelist["number words"])) 
+            message=replaceAll(message,"(?i)convertnum "+key+"\\b", global_replacelist["number words"][key]);} 
+   else done=true;} 
+
+//Global variable changed trigger processes in-line 
+//requests for vibrate/sounds/TTS/display
+if (flow==null and message!="") {global_notify_watch="buzz"} </script>
+  </action>
+  <action type="script">
+    <useDefaultName>false</useDefaultName>
+    <name>Say something polite</name>
+    <script>responses=newList("no problem", "sure", "okay", "k") ; 
+if (polite =="yes") {global_say= getRandomElement(responses)} </script>
+  </action>
+  <action type="script">
+    <useDefaultName>false</useDefaultName>
+    <name>Voice command regex map</name>
+    <script>global_regexlist=newMap();
+//Lists: 
+addMapEntry(global_regexlist,"(add to|that\\'*s) my (.*?) list (.*)","Lists: list functions") ; 
+addMapEntry(global_regexlist,"(read|say) my (.*) list","Lists: list functions");
+addMapEntry(global_regexlist,"(clear) my (.*) list","Lists: list functions");
+addMapEntry(global_regexlist,"(delete) (.*) list items? (.*)","Lists: list functions");
+
+//Reminders: 
+addMapEntry(global_regexlist,"remind me (?:to )*(.+) (in|at) (\\d+:?\\d*) ?(seconds?|minutes?|hours?|days?|a.?m.?|p.?m.?|..clock)*(?: (on) (.*?) (.*?)(?:st|nd|rd|th))*","Reminders: set/delete reminders") ; 
+addMapEntry(global_regexlist,"remind me (?:to )*(.+) (when i|\\d+ (?:minutes?|seconds?) after i) (.*)","Reminders: set/delete reminders") ; 
+addMapEntry(global_regexlist,"(delete) ?(.*) reminders? (.*)","Reminders: set/delete reminders");
+addMapEntry(global_regexlist,"((?:\\d+|too|for|to|free|sex)(?: longs?)*)","short form expander");
+addMapEntry(global_regexlist,"(\\d+ seconds?|\\d+ minutes?|\\d+ hours?|slides|hydrogen peroxide|peroxide)", "short form expander") ;
+addMapEntry(global_regexlist,"(slides cooling|hematoxylin|secondary|labeling|lunch|microwave)", "short form expander") ;
+addMapEntry(global_regexlist,"done", "Reminders: add 15 minutes to prompt") ;
+
+//Settings: 
+addMapEntry(global_regexlist, "(watch screen|shake|tilt|continuous|computer mode|watch volume|display)s? (.*?)","Settings: set");
+addMapEntry(global_regexlist, "(watch notification volume|volume|audio|are you|display variables|vibrate|notification)s? (.*?)","Settings: set");
+addMapEntry(global_regexlist, "(office|s?labs?|home|work|staining|standing|outside|silent|car|shower)", "Settings: profiles") ;
+addMapEntry(global_regexlist, "(movie|gym|headphones|out of the shower)", "Settings: profiles") ;
+addMapEntry(global_regexlist, "(set profile (?:to|2) (?:silence))", "short form expander") ;
+addMapEntry(global_regexlist, "set (.*?) (?:to|2) (.*)", "Settings: set variable") ;
+addMapEntry(global_regexlist,"(watch screen) (.*?)", "Settings: set") ;
+
+//Control Apps:
+addMapEntry(global_regexlist,"(record)(?: ?)(.*)","Control Apps: record");
+addMapEntry(global_regexlist,"(continue) typing (.*)","Control Apps: record");
+addMapEntry(global_regexlist,"paste","Control Apps: paste");
+addMapEntry(global_regexlist,"(delete|back|move|move back) (.*?) (sentences?|words?|letters?|characters?)","Control Apps: edit text");
+addMapEntry(global_regexlist,"(replace) (\\w+) with (\\w+)","Control Apps: edit text");
+addMapEntry(global_regexlist,"(goto|go to) (.*)","Control Apps: edit text");
+addMapEntry(global_regexlist,"(clear)","Control Apps: edit text");
+addMapEntry(global_regexlist,"(text|message) (.*)", "Control Apps: text") ;
+addMapEntry(global_regexlist,"(call) (.*)", "Control Apps: call") ;
+addMapEntry(global_regexlist,"send", "Control Apps: send") ;
+addMapEntry(global_regexlist,"navigate to (.*)","Control Apps: navigate");
+addMapEntry(global_regexlist,"exit navigation","Control Apps: exit navigation");
+addMapEntry(global_regexlist,"search (.*)","Control Apps: search google");
+addMapEntry(global_regexlist,"look this up","Control Apps: search wikipedia");
+addMapEntry(global_regexlist,"(?:open|close|click).*","Control Apps: voice command app actions");
+addMapEntry(global_regexlist,"(play next|play) (.*) by (.*)","Control Apps: song on Pandora");
+addMapEntry(global_regexlist,"(pause|stop|play)","short form expander");
+addMapEntry(global_regexlist,"(start m?y? ?cars?|boxcars?|(?:stop|stock) m?y? ?cars?|cars? on|cars? off)","Control Apps: car");
+addMapEntry(global_regexlist,"(unlock m?y? ?cars?|(?:lock|lok|lux|locked) m?y? ?cars?)","Control Apps: car");
+
+//Memory: 
+addMapEntry(global_regexlist,"(read|reed|raid|say) (.*?) category (.*)","Memory: read file");
+addMapEntry(global_regexlist,"(who is|what is|where is|whose|who's|what's) (.*)","Memory: questions");
+addMapEntry(global_regexlist,"(who is|what is|where is|whose|who's|what's) (.*)","Memory: questions");
+addMapEntry(global_regexlist,"(append|save) (.*)","Memory: save to set");
+addMapEntry(global_regexlist,"(.*)category?i?e?s?(.*)","Memory: set file");
+
+//Voice Tools: 
+addMapEntry(global_regexlist,".*my (messages)","Voice Tools: say");
+addMapEntry(global_regexlist,"(Voice|Alexa)","");
+addMapEntry(global_regexlist,"(divide|what.s) (\\d+) (divided by|and|over|by) (.*?)","Voice Tools: say");
+addMapEntry(global_regexlist,"(multiply|what.s) (\\d+) (multiplied by|and|times|by) (.*?)","Voice Tools: say");
+addMapEntry(global_regexlist,"what (time) is it.?","Voice Tools: say");
+addMapEntry(global_regexlist,"what's the (date).?","Voice Tools: say");
+addMapEntry(global_regexlist,"screen (on|off)","Block screen in pocket");
+addMapEntry(global_regexlist,"(flow.*)","short form expander");
+addMapEntry(global_regexlist,"(repeat)","Voice Tools: say");
+addMapEntry(global_regexlist,"(flashlight|flash light)","Voice Tools: flashlight");
+addMapEntry(global_regexlist,"next (timer)", "Voice Tools: say") ;
+addMapEntry(global_regexlist,"(read by verse|show by verse|read|show) (.*) (\\d+) verse (\\d+) through (\\d+)", "Voice Tools: Read Bible") ;
+addMapEntry(global_regexlist,"(read by verse|show by verse|read|show) (.*) (\\d+) verse (\\d+)", "Voice Tools: Read Bible") ;
+addMapEntry(global_regexlist,"(read by verse|show by verse|read|show) (\\w+) (\\d+)", "Voice Tools: Read Bible") ;
+addMapEntry(global_regexlist,"(next ?chapter|next verse|repeat chapter|continue)", "Voice Tools: Read Bible") ;
+
+//Send to computer via AutoRemote
+addMapEntry(global_regexlist,"(send work)(.*)","Voice Tools: send to computer");
+addMapEntry(global_regexlist,"(send home)(.*)","Voice Tools: send to computer");
+addMapEntry(global_regexlist,"(home|total|what's the|(?:who is|whose|who's) playing at) (.*)","Voice Tools: send to computer");
+addMapEntry(global_regexlist,"(speak) (.*)","Voice Tools: send to computer");
+addMapEntry(global_regexlist,"(close worksheets)","Voice Tools: send to computer");
+addMapEntry(global_regexlist,"(next song|like|what song is this)","Voice Tools: send to computer");
+addMapEntry(global_regexlist,"(find .*)", "Control Apps: Tell computer") ;
+
+//Allows speech received from AutoRemote
+addMapEntry(global_regexlist,"(say) (.*)", "Voice Tools: say") ;
+
+
+global_expandlist=newMap(); 
+//Lists: 
+addMapEntry(global_expandlist,"(\\d+|too|for|to|free|sex)","remind me slide convertnum $1 in 5 minutes");
+addMapEntry(global_expandlist,"(\\d+|too|for|to|free|sex) (long)s?","remind me slide convertnum $1 in 15 minutes");
+addMapEntry(global_expandlist,"(slides)", "remind me slides in 5 minutes") ;
+addMapEntry(global_expandlist,"(hydrogen peroxide|peroxide)", "remind me hydrogen peroxide in 15 minutes") ;
+addMapEntry(global_expandlist,"(microwave)", "remind me microwave in 10 minutes") ;
+addMapEntry(global_expandlist,"(slides cooling)", "remind me slides cooling in 10 minutes") ;
+addMapEntry(global_expandlist,"(2 minutes)", "remind me slides in 2 minutes") ;
+addMapEntry(global_expandlist,"(hematoxylin)", "remind me hematoxylin in 30 seconds") ;
+addMapEntry(global_expandlist,"(bluing)", "remind me bluing solution in 1 minute") ;
+addMapEntry(global_expandlist,"(secondary|labeling)", "remind me slides in 20 minutes") ;
+addMapEntry(global_expandlist,"(lunch)", "remind me lunch in 30 minutes") ;
+addMapEntry(global_expandlist,"(\\d+ minutes?|\\d+ seconds?|\\d+ hours?)", "remind me timer is up in $1") ;
+addMapEntry(global_expandlist,"(.*?)silence", "$1silent") ;
+</script>
+  </action>
+  <action type="script">
+    <useDefaultName>false</useDefaultName>
+    <name>Word replacement maps</name>
+    <script>numbers=newMapFromValues(
+"zero","0", 
+"one","1", 
+"two","2", 
+"three","3", 
+"four","4", 
+"five","5", 
+"six","6", 
+"seven","7", 
+"eight","8", 
+"nine","9", 
+"ten","10") ;
+
+numbersrev=newMapFromValues(
+"10","ten", 
+"20","twenty", 
+"30","thirty", 
+"40","forty", 
+"50","fifty", 
+"60","sixty", 
+"70","seventy", 
+"80","eighty", 
+"90","ninety", 
+"2(\\d)","twenty $1", 
+"3(\\d)","thirty $1", 
+"4(\\d)","forty $1", 
+"5(\\d)","fifty $1", 
+"6(\\d)","sixty $1", 
+"7(\\d)","seventy $1", 
+"8(\\d)","eighty $1", 
+"9(\\d)","ninety $1", 
+"0","zero", 
+"1","one", 
+"2","two", 
+"3","three", 
+"4","four", 
+"5","five", 
+"6","six", 
+"7","seven", 
+"8","eight", 
+"9","nine");
+
+numberwords=newMapFromValues(
+"for", "4", 
+"to", "2", 
+"too", "2", 
+"free", "3", 
+"sex", "6"); 
+
+clean=newMapFromValues(
+"=:=","", 
+"[","", 
+"]","", 
+"a\\.m\\.","am", 
+"p\\.m\\.","pm", 
+":-)",":)"); 
+
+MonthToNumber=newMapFromValues(
+"Output","MonthNum",
+"Input","global_parselist[5]",
+"january","0",
+"february","31",
+"march","59",
+"april","90",
+"may","120",
+"june","151",
+"july","182",
+"august","212",
+"september","243",
+"october","273",
+"november","304",
+"december","334");
+
+ShortMonthToNumber=newMapFromValues(
+"Output","MonthNum",
+"Input","global_parselist[5]",
+"Jan","0",
+"Feb","31",
+"Mar","59",
+"Apr","90",
+"May","120",
+"June","151",
+"July","182",
+"Aug","212",
+"Sep","243",
+"Oct","273",
+"Nov","304",
+"Dec","334");
+
+global_replacelist=newMap();
+addMapEntry(global_replacelist, "numbers", numbers) ;
+addMapEntry(global_replacelist, "numbersrev", numbersrev) ;
+addMapEntry(global_replacelist, "number words", numberwords) ;
+addMapEntry(global_replacelist, "clean", clean) ;
+addMapEntry(global_replacelist, "ShortMonthToNumber", ShortMonthToNumber) ;
+addMapEntry(global_replacelist, "MonthToNumber", MonthToNumber) ;</script>
+  </action>
+  <flow type="flow">
+    <name>Voice Processing: core flow</name>
+    <group>Voice Processing</group>
+    <enabled>true</enabled>
+    <executionPolicy>PARALLEL</executionPolicy>
+    <triggercontainer id="t1" x="175.0" y="297.5">
+      <trigger>Inputbox shortcut</trigger>
+      <trigger>AV</trigger>
+      <trigger>AR</trigger>
+      <trigger>AW</trigger>
+    </triggercontainer>
+    <conditioncontainer id="t2" x="350.0" y="402.5">Inputbox shortcut trigger</conditioncontainer>
+    <conditioncontainer id="t3" x="350.0" y="507.5">AV|AR|AW triggers</conditioncontainer>
+    <actioncontainer id="t4" x="840.0" y="507.5">Execute Flows: {flow}</actioncontainer>
+    <actioncontainer id="t5" x="525.0" y="402.5">Input Dialog</actioncontainer>
+    <actioncontainer id="t6" x="840.0" y="402.5">Say something polite</actioncontainer>
+    <conditioncontainer id="t7" x="350.0" y="297.5">trigger =="Manual"</conditioncontainer>
+    <notecontainer id="t8" x="840.0" y="192.5" w="140.0" h="105.0">Edit and execute to add new functions</notecontainer>
+    <notecontainer id="t9" x="665.0" y="192.5" w="140.0" h="105.0">Edit and execute to add new word replacements</notecontainer>
+    <notecontainer id="t10" x="175.0" y="192.5" w="140.0" h="105.0">Initialize global maps on first use by executing this flow manually</notecontainer>
+    <notecontainer id="t11" x="525.0" y="192.5" w="140.0" h="105.0">Edit and execute to add new voice commands</notecontainer>
+    <conditioncontainer id="t12" x="665.0" y="507.5">flow==Null</conditioncontainer>
+    <actioncontainer id="t13" x="840.0" y="297.5">Functions map</actioncontainer>
+    <actioncontainer id="t14" x="525.00006" y="507.5">Process AW|AR|AW|Inputbox inputs</actioncontainer>
+    <actioncontainer id="t15" x="665.0" y="297.50003">Word replacement maps</actioncontainer>
+    <actioncontainer id="t16" x="525.0" y="297.5">Voice command regex map</actioncontainer>
+    <connection from="t1" to="t3" type="NORMAL" sourcePosition="EAST" targetPosition="WEST" />
+    <connection from="t1" to="t7" type="NORMAL" sourcePosition="EAST" targetPosition="WEST" />
+    <connection from="t1" to="t2" type="NORMAL" sourcePosition="EAST" targetPosition="WEST" />
+    <connection from="t2" to="t5" type="TRUE" sourcePosition="EAST" targetPosition="WEST" />
+    <connection from="t3" to="t14" type="TRUE" sourcePosition="EAST" targetPosition="WEST" />
+    <connection from="t5" to="t14" type="NORMAL" sourcePosition="SOUTH" targetPosition="NORTH" />
+    <connection from="t7" to="t16" type="TRUE" sourcePosition="EAST" targetPosition="WEST" />
+    <connection from="t12" to="t4" type="FALSE" sourcePosition="EAST" targetPosition="WEST" />
+    <connection from="t12" to="t6" type="FALSE" sourcePosition="NORTH" targetPosition="WEST" />
+    <connection from="t14" to="t12" type="NORMAL" sourcePosition="EAST" targetPosition="WEST" />
+    <connection from="t15" to="t13" type="NORMAL" sourcePosition="EAST" targetPosition="WEST" />
+    <connection from="t16" to="t15" type="NORMAL" sourcePosition="EAST" targetPosition="WEST" />
+  </flow>
+</data>
